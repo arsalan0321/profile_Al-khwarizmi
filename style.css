@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(white, grey);
+}
+
+.basic {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 10px 5px
+}
+
+#image-1 {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#city {
+    height: 250px;
+    width: 250px;
+    margin: 10px auto;
+    background-size: cover;
+}
+
+#city:hover {
+    background-image: url(images/khwarizm.jpg);
+}
